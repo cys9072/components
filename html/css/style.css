@@ -1,0 +1,20 @@
+html{padding: 0px 10px;background: black;}
+.wrap {width: 100%; height: 100%;}
+header {background: #d3ca27;}
+section {background: rgb(9, 9, 108);}
+article {background: rgb(42, 176, 196);}
+footer {background: rgb(252, 169, 35);}
+
+
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+.grid-header { grid-column: 1 / 7; grid-row: 1 / 2; }
+.grid-title { grid-column: 1 / 7; grid-row: 2 / 3; background:powderblue;}
+.grid-contents { grid-column: 1 / 7; grid-row: 3 / 13;  background:rgb(25, 188, 33);}
+
+.grid-col__item {border:1px solid red;}
+/* .grid-col__item {padding:clamp(10px,1vw, 12px) clamp(10px,1vw, 15px); border:1px solid red;} */
+/* .title-section {background: purple;color:#fff; font-size: clamp(12px, 1vw + 1rem, 40px); font-weight: bold;} */
