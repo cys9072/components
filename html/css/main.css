@@ -64,6 +64,7 @@ svg,
 video {
   vertical-align: middle;
 }
+img {width: 100%; height: auto;}
 
 /*
  * Remove default fieldset styles.
